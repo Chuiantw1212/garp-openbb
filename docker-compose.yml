@@ -1,6 +1,6 @@
 services:
   openbb-api:
-    image: ghcr.io/openbb-platform/openbb-api:latest
+    build: .
     ports:
       - "6900:6900"
     environment:
