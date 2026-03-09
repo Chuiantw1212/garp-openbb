@@ -20,6 +20,14 @@ To get started, you will need to have Docker installed.
     docker-compose up
     ```
 
+## Usage
+
+Once the service is running, you can access the interactive API documentation (Swagger UI) in your browser at:
+
+http://localhost:6900/docs
+
+This interface allows you to explore and test all available API endpoints.
+
 ## Ports
 
 The service exposes the following ports:
@@ -30,4 +38,4 @@ The service exposes the following ports:
 
 The service uses the following environment variables:
 
-*   `OPENBB_PLATFORM_API_KEY`: Your OpenBB Personal Access Token. This is set in the `docker-compose.yml` file and read from the `.env` file.
+*   `OPENBB_PAT`: Your OpenBB Personal Access Token. This is set in the `docker-compose.yml` file and read from the `.env` file.
